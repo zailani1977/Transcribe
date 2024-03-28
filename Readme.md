@@ -15,11 +15,25 @@ This script requires the following dependencies:
 
 - Python 3.x
 - `librosa` library
-- `torch` library
-- CUDA drivers
+- `torch` library with CUDA support
+- CUDA capable GPU and CUDA drivers
+- FFMPEG codecs
 
 You can install these dependencies using pip:
-pip install librosa torch
+
+  pip install librosa
+  
+  pip install torch torchaudio --extra-index-url https://download.pytorch.org/whl/cu121 --index-url https://download.pytorch.org/whl/cu121/torch_stable -f https://download.pytorch.org/whl/<python version>/cu121/torch_stable.html
+  
+  *Note: Replace <python version> with the actual version number. For example, 3.10.6.
+
+
+CUDA drivers:
+  https://developer.nvidia.com/cuda-downloads
+
+
+FFMPEG codecs:
+  https://ffmpeg.org/
 
 ## License
 

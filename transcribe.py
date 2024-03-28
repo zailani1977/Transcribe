@@ -1,5 +1,12 @@
 """
-Transcribes audio from an m4a file to a text transcript.
+Script Name: Transcribe.py
+Author: Zailani
+Version: 1.0.0
+Description: 
+    This code is a Python script which transcribes audio from m4a file to a text
+    transcript. It uses openai/whisper-large model and relies on CUDA capable
+    hardware from inferencing. It also dependent on FFMPEG for audio coversion
+    and resampling.
 
 Args:
     audio_file (str): Path to the input m4a audio file.

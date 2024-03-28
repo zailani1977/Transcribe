@@ -23,9 +23,9 @@ You can install these dependencies using pip:
 
   pip install librosa
   
-  pip install torch torchaudio --extra-index-url https://download.pytorch.org/whl/cu121 --index-url https://download.pytorch.org/whl/cu121/torch_stable -f https://download.pytorch.org/whl/<python version>/cu121/torch_stable.html
+  pip install torch torchaudio --extra-index-url https://download.pytorch.org/whl/cu121 --index-url https://download.pytorch.org/whl/cu121/torch_stable -f https://download.pytorch.org/whl/3.10.6/cu121/torch_stable.html
   
-  *Note: Replace <python version> with the actual version number. For example, 3.10.6.
+  *Note: The value 3.10.6 in "https://download.pytorch.org/whl/3.10.6/cu121/torch_stable.html" should be replaced with your exact Python version.
 
 
 CUDA drivers:
